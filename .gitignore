@@ -11,3 +11,6 @@ __pycache__/
 # OSによる不要ファイル
 .DS_Store
 Thumbs.db
+
+movie/frames/
+movie/frames_2/

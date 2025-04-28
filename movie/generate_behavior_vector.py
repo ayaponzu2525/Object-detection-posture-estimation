@@ -1,9 +1,11 @@
 import csv
 import math
 
+# --- 動画フレーム間の行動ベクトルを計算するスクリプト ---
+
 # --- 入出力ファイルパス ---
-INPUT_CSV = r"C:\Users\ayapo\Documents\hightech_local\Object-detection-posture-estimation\movie\frame_analysis_full_pose.csv"
-OUTPUT_CSV = "behavior_vector_full.csv"
+INPUT_CSV = r"C:\Users\ayapo\Documents\hightech_local\Object-detection-posture-estimation\movie\frame_analysis_full_pose_2.csv"
+OUTPUT_CSV = "behavior_vector_full_2.csv"
 
 # --- 距離を計算する関数 ---
 def distance(x1, y1, x2, y2):

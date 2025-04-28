@@ -4,9 +4,12 @@ import csv
 from ultralytics import YOLO
 import mediapipe as mp
 
+
+# 動画からフレームを抽出し、物体検出と姿勢推定を行い、結果をCSVに保存するスクリプト
+
 # === 設定 ===
-FRAME_DIR = r"C:\Users\ayapo\Documents\hightech_local\Object-detection-posture-estimation\movie\frames"  # フレーム画像が入ったフォルダ
-OUTPUT_CSV = "frame_analysis_full_pose.csv"
+FRAME_DIR = r"C:\Users\ayapo\Documents\hightech_local\Object-detection-posture-estimation\movie\frames_2"  # フレーム画像が入ったフォルダ
+OUTPUT_CSV = "frame_analysis_full_pose_2.csv"
 YOLO_MODEL_PATH = "yolov8s.pt"  # YOLOモデル
 
 # === 初期化 ===
